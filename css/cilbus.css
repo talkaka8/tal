@@ -1,45 +1,45 @@
 @import "/css/main.css";
 
-.title{
+.title {
     text-align: center;
     margin: 30px;
 }
 
-.row{
+
+.row {
     margin: 50px 0;
     height: 500px;
     justify-content: center;
 }
 
-.card{
-    margin: 20px auto ;
+.card {
+    margin: 20px auto;
     margin-left: 120px;
     width: 28%;
 }
 
-.card img{
+.card img {
     height: 96px;
     width: 100%;
 }
 
-.card-text{
+.card-text {
     color: black;
 }
 
-@media screen and (max-width: 1000px){
-    .container{
+@media screen and (max-width: 1000px) {
+    .container {
         max-width: 100%;
     }
 
-    .row{
+    .row {
         height: fit-content;
         height: auto;
         justify-content: center;
     }
 
-    .card{
+    .card {
         margin: 20px;
         width: 80%;
     }
 }
-
